@@ -1,0 +1,15 @@
+{
+	"hero": {
+		"title": "Hello, i'm Rémi Dubus. I'm a full-stack web developer."
+	},
+	"navbar": {
+		"home": "Home",
+		"about": "About",
+		"contact": "Contact",
+		"projects": "Projects"
+	},
+	"footer": {
+		"copyrigthText": "Background and flags designed by ",
+		"copyrigthLink": "rawpixel.com / Freepik."
+	}
+}

@@ -1,10 +1,16 @@
 import { Outlet } from "react-router-dom";
-import "./App.css";
+import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
+import { LangProvider } from "./contexts/LangContext";
 
 function App() {
 	return (
 		<>
-			<Outlet />
+			<LangProvider>
+				<NavBar />
+				<Outlet />
+				<Footer />
+			</LangProvider>
 		</>
 	);
 }
