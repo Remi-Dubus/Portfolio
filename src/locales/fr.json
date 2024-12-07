@@ -1,20 +1,26 @@
 {
 	"hero": {
-		"title": "Bonjour, je m'appelle Rémi Dubus. Je suis développeur web full-stack."
+		"title": "Bonjour, je m'appelle Rémi Dubus. Je suis ",
+		"job": "développeur web junior."
 	},
 	"navbar": {
-		"home": "Accueil",
 		"about": "A propos",
-		"contact": "Contact",
-		"projects": "Projets"
+		"skills": "Aptitudes",
+		"projects": "Projets",
+		"contact": "Contact"
 	},
 	"about": {
 		"aboutTitle": "A propos de moi",
 		"aboutText": "Après 9 ans de bon et loyaux service en boulangerie, j'ai décidé de changer de profession notamment à cause de soucis de santé, et du rythme effréné. Le développement web m'a semblé un être un bon choix car je m'y interresse depuis un moment et je souhaite rester dans un domaine créatif.",
-		"skillTitle": "Compétences",
-		"skillText": "En étudiant à la Wild Code School, j'ai pu acquérir des compétences en: HTML, CSS, React pour le frontend et Express pour la partie backend. Pour la gestion de sauvegarde j'utilise Git et GitHub. De part mon ancien métier, je sais travailler en équipe et grace à ma formation actuelle, j'ai appris à travailler avec les méthodes Agile. Je suis ouvert à l'idée d'apprendre de nouvelle choses!",
+		"skillTitle": "Aptitudes",
 		"hobbiesTitle": "Mais encore...",
 		"hobbiesText": "En dehors du développement web, j'aime la lecture de revues scientifiques, notamment sur l'espace. J'apprécie également la préparation de pains et pizzas maison et le dessin. Par ailleurs, je consacre un peu de temps aux jeux vidéo."
+	},
+	"contact": {
+		"contactTitle": "Contact",
+		"contactMail": "Mél: remdubus@gmail.com",
+		"contactLinkedin": "Linkedin",
+		"contactGithub": "GitHub"
 	},
 	"footer": {
 		"copyrigthText": "Fond et drapeaux conçu par ",

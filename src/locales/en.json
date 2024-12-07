@@ -1,12 +1,26 @@
 {
 	"hero": {
-		"title": "Hello, i'm Rémi Dubus. I'm a full-stack web developer."
+		"title": "Hello, i'm Rémi Dubus. I'm a ",
+		"job": "junior web developer."
 	},
 	"navbar": {
-		"home": "Home",
 		"about": "About",
-		"contact": "Contact",
-		"projects": "Projects"
+		"skills": "Skills",
+		"projects": "Projects",
+		"contact": "Contact"
+	},
+	"about": {
+		"aboutTitle": "About me",
+		"aboutText": "After 9 years of good and loyal service in the bakery, I decided to change profession, especially because of health concerns and the frantic pace. Web development seemed like a good choice to me because I have been interested in it for a while and I want to stay in a creative field.",
+		"skillTitle": "Skills",
+		"hobbiesTitle": "But still...",
+		"hobbiesText": "Apart from web development, I like reading scientific journals, especially on space. I also enjoy the preparation of homemade breads and pizzas and the drawing. In addition, I devote some time to video games."
+	},
+	"contact": {
+		"contactTitle": "Contact",
+		"contactMail": "Mail: remdubus@gmail.com",
+		"contactLinkedin": "Linkedin",
+		"contactGithub": "GitHub"
 	},
 	"footer": {
 		"copyrigthText": "Background and flags designed by ",

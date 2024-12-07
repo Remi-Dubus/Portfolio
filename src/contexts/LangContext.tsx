@@ -1,7 +1,7 @@
 import { createContext, useContext, useState } from "react";
 
 import type { ReactNode } from "react";
-import type { languageType } from "../lib/definitions";
+import type { languageType } from "../assets/lib/definitions";
 
 import fr from "../locales/fr.json";
 import en from "../locales/en.json";
