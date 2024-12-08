@@ -3,6 +3,7 @@ import { createContext, useContext, useState } from "react";
 import type { ReactNode } from "react";
 import type { languageType } from "../assets/lib/definitions";
 
+//
 import fr from "../locales/fr.json";
 import en from "../locales/en.json";
 
@@ -13,16 +14,17 @@ const translations = { en, fr };
 const LangContext = createContext<languageType>({
 	language: "fr",
 	toggleLanguage: () => undefined,
-	translations: translations["fr"],
+	translations: translations.fr,
 });
 
 // fournir le contexte
 export function LangProvider({ children }: { children: ReactNode }) {
-	const [language, setLanguage] = useState<string>("fr");
+	const [language, setLanguage] = useState<"fr" | "en">("fr");
 
 	const toggleLanguage = () => {
 		setLanguage(language === "fr" ? "en" : "fr");
 	};
+
 	// creation d'un objet afin de faire passer les props
 	const value = {
 		language,

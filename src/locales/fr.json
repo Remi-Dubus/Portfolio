@@ -13,8 +13,31 @@
 		"aboutTitle": "A propos de moi",
 		"aboutText": "Après 9 ans de bon et loyaux service en boulangerie, j'ai décidé de changer de profession notamment à cause de soucis de santé, et du rythme effréné. Le développement web m'a semblé un être un bon choix car je m'y interresse depuis un moment et je souhaite rester dans un domaine créatif.",
 		"skillTitle": "Aptitudes",
+		"skillArray": [
+			"GitHub",
+			"HTML",
+			"CSS",
+			"Node.js",
+			"React.js",
+			"Vite.js",
+			"Tailwind",
+			"Express.js",
+			"MySQL",
+			"Figma"
+		],
 		"hobbiesTitle": "Mais encore...",
 		"hobbiesText": "En dehors du développement web, j'aime la lecture de revues scientifiques, notamment sur l'espace. J'apprécie également la préparation de pains et pizzas maison et le dessin. Par ailleurs, je consacre un peu de temps aux jeux vidéo."
+	},
+	"project": {
+		"croustiEatAlt": "Image du site Crousti Eat",
+		"croustiEatText": "Premier projet de ma formation, développé en HTML, CSS et JavaScript Vanilla, ce site permet de rechercher des restaurants dans la région bordelaise en filtrant par critères.",
+		"croustiEatUrl": "https://crousti-eat-project.vercel.app/",
+		"buyAPlanetAlt": "Image du site Buy A Planet",
+		"buyAPlanetText": "Site de vente fictive de planètes du système solaire, réalisé dans le cadre de ma formation. Ce projet m'a permis d'apprendre les bases de React, notamment les props et les states.",
+		"buyAPlanetUrl": "https://buy-a-planet-project.vercel.app/",
+		"boarderlineAlt": "Image du site Boarder Line",
+		"boarderlineText": "Site de référencement de jeux de société, réalisé dans le cadre de ma formation pour approfondir React et apprendre à fetcher une API REST.",
+		"boarderlineUrl": "https://boarder-line-project.vercel.app/"
 	},
 	"contact": {
 		"contactTitle": "Contact",

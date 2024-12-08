@@ -1,5 +1,8 @@
 import Slider from "react-slick";
+import { useTranslation } from "../contexts/LangContext";
+
 import ProjectsCard from "./ProjectCard";
+
 import croustiEatPicture from "../assets/images/crouti-eat-picture.png";
 import buyAPlanetPicture from "../assets/images/buy-a-planet-picture.png";
 import boarderLinePicture from "../assets/images/borderline-picture.png";
@@ -9,22 +12,58 @@ export default function Projects() {
 		arrows: false,
 		dots: true,
 		infinite: true,
-		speed: 700,
+		speed: 500,
 		slidesToShow: 1,
 		slidesToScroll: 1,
 		autoplay: true,
 		autoplaySpeed: 3000,
 		draggable: true,
 	};
+	// import des langues et de la fonction permetant de switcher
+	const { translations } = useTranslation();
+
+	// Tableau des projets
+	const arrayOfSites = [
+		{
+			alt: translations.project.croustiEatAlt,
+			text: translations.project.croustiEatText,
+			url: translations.project.croustiEatUrl,
+			picture: croustiEatPicture,
+		},
+		{
+			alt: translations.project.buyAPlanetAlt,
+			text: translations.project.buyAPlanetText,
+			url: translations.project.buyAPlanetUrl,
+			picture: buyAPlanetPicture,
+		},
+		{
+			alt: translations.project.boarderlineAlt,
+			text: translations.project.boarderlineText,
+			url: translations.project.boarderlineUrl,
+			picture: boarderLinePicture,
+		},
+	];
+
+	// JSX
 	return (
-		<article id="projects" className="flex flex-col gap-2 p-2 h-96">
-			<h1 className="text-lightcolor text-2xl font-titlefont text-center mt-20 mx-16">
+		<article
+			id="projects"
+			className="flex flex-col gap-2 mt-20 p-2 h-96 bg-black bg-opacity-50 rounded-lg"
+		>
+			<h1 className="text-lightcolor text-2xl font-titlefont text-center mb-4 mx-16">
 				Projets
 			</h1>
-			<Slider {...settings} className="h-2/3">
-				<ProjectsCard image={croustiEatPicture} />
-				<ProjectsCard image={buyAPlanetPicture} />
-				<ProjectsCard image={boarderLinePicture} />
+
+			<Slider {...settings} className="h-screen">
+				{arrayOfSites.map((w) => (
+					<ProjectsCard
+						alt={w.alt}
+						key={w.alt}
+						text={w.text}
+						url={w.url}
+						picture={w.picture}
+					/>
+				))}
 			</Slider>
 		</article>
 	);

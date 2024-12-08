@@ -13,8 +13,31 @@
 		"aboutTitle": "About me",
 		"aboutText": "After 9 years of good and loyal service in the bakery, I decided to change profession, especially because of health concerns and the frantic pace. Web development seemed like a good choice to me because I have been interested in it for a while and I want to stay in a creative field.",
 		"skillTitle": "Skills",
+		"skillArray": [
+			"GitHub",
+			"HTML",
+			"CSS",
+			"Node.js",
+			"React.js",
+			"Vite.js",
+			"Tailwind",
+			"Express.js",
+			"MySQL",
+			"Figma"
+		],
 		"hobbiesTitle": "But still...",
 		"hobbiesText": "Apart from web development, I like reading scientific journals, especially on space. I also enjoy the preparation of homemade breads and pizzas and the drawing. In addition, I devote some time to video games."
+	},
+	"project": {
+		"croustiEatAlt": "Picture of Crousti Eat website",
+		"croustiEatText": "My first project in training, developed using HTML, CSS, and vanilla JavaScript, this website allows users to search for restaurants in the Bordeaux region by applying filters.",
+		"croustiEatUrl": "https://crousti-eat-project.vercel.app/",
+		"buyAPlanetAlt": "Picture of Buy A Planet website",
+		"buyAPlanetText": "Fictional Planet Sales Website, created as part of my training, this project helped me learn the basics of React, including props and states.",
+		"buyAPlanetUrl": "https://buy-a-planet-project.vercel.app/",
+		"boarderlineAlt": "Picture of Boarder Line website",
+		"boarderlineText": "Board Game Listing Website, project developed during my training to further explore React and learn how to fetch data from a REST API.",
+		"boarderlineUrl": "https://boarder-line-project.vercel.app/"
 	},
 	"contact": {
 		"contactTitle": "Contact",

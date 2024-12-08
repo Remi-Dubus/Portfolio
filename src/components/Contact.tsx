@@ -7,7 +7,10 @@ export default function Contact() {
 
 	// JSX
 	return (
-		<article id="contacts" className="flex flex-col gap-2 items-center mt-24">
+		<article
+			id="contacts"
+			className="flex flex-col gap-2 items-center bg-black bg-opacity-50 p-4 mt-24 rounded-lg "
+		>
 			<h2 className="text-lightcolor text-2xl font-titlefont">
 				{translations.contact.contactTitle}
 			</h2>
