@@ -32,7 +32,7 @@
 	},
 	"project": {
 		"croustiEatAlt": "Picture of Crousti Eat website",
-		"croustiEatText": "My first project in training, developed using HTML, CSS, and vanilla JavaScript, this website allows users to search for restaurants in the Bordeaux region by applying filters.",
+		"croustiEatText": "First project carried out during my training, developed using HTML, CSS, and vanilla JavaScript, this website allows users to search for restaurants in the Bordeaux region by applying filters.",
 		"croustiEatUrl": "https://crousti-eat-project.vercel.app/",
 		"buyAPlanetAlt": "Picture of Buy A Planet website",
 		"buyAPlanetText": "Fictional Planet Sales Website, created as part of my training, this project helped me learn the basics of React, including props and states.",
