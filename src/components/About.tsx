@@ -39,7 +39,7 @@ export default function About() {
 			id="about"
 			className="flex flex-col gap-2 lg:grid lg:grid-cols-2 lg:gap-8"
 		>
-			<section className="mt-20 p-4 flex flex-col items-center gap-4 bg-black bg-opacity-50 rounded-lg">
+			<section className="mt-20 p-4 flex flex-col items-center gap-4 bg-slate-700 bg-opacity-50 rounded-lg">
 				<h2 className="text-lightcolor mt-4 text-2xl font-titlefont z-10 sm:text-5xl">
 					{translations.about.aboutTitle}
 				</h2>
@@ -57,7 +57,7 @@ export default function About() {
 
 			<section
 				id="skills"
-				className="mt-20 p-8 grid grid-cols-3 items-center gap-4 bg-black bg-opacity-50 rounded-lg lg:grid-cols-3"
+				className="mt-20 p-8 grid grid-cols-3 items-center gap-4 bg-slate-700 bg-opacity-50 rounded-lg lg:grid-cols-3"
 			>
 				<h2 className="text-lightcolor text-2xl col-span-3 font-titlefont text-center z-10 sm:text-5xl lg:col-span-3">
 					{translations.about.skillTitle}
@@ -79,7 +79,7 @@ export default function About() {
 				))}
 			</section>
 
-			<section className="mt-20 p-4 flex flex-col items-center gap-2 bg-black bg-opacity-50 rounded-lg lg:col-span-2 lg:mt-0">
+			<section className="mt-20 p-4 flex flex-col items-center gap-2 bg-slate-700 bg-opacity-50 rounded-lg lg:col-span-2 lg:mt-0">
 				<h2 className="text-lightcolor text-2xl font-titlefont mb-4 sm:text-5xl">
 					{translations.about.hobbiesTitle}
 				</h2>
