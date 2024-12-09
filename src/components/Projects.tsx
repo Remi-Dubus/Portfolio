@@ -13,11 +13,20 @@ export default function Projects() {
 		dots: true,
 		infinite: true,
 		speed: 500,
-		slidesToShow: 1,
-		slidesToScroll: 1,
+		slidesToShow: 2,
+		slidesToScroll: 2,
 		autoplay: true,
 		autoplaySpeed: 3000,
 		draggable: true,
+		responsive: [
+			{
+				breakpoint: 1024,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
+				},
+			},
+		],
 	};
 	// import des langues et de la fonction permetant de switcher
 	const { translations } = useTranslation();
@@ -48,7 +57,7 @@ export default function Projects() {
 	return (
 		<article
 			id="projects"
-			className="flex flex-col gap-2 mt-20 pt-4 px-4 pb-12 h-auto bg-black bg-opacity-50 rounded-lg"
+			className="flex flex-col gap-4 mt-20 pt-4 px-4 pb-12 h-auto bg-black bg-opacity-50 rounded-lg"
 		>
 			<h1 className="text-lightcolor text-2xl font-titlefont text-center mb-4 mx-16 sm:text-5xl">
 				Projets

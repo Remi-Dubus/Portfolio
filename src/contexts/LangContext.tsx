@@ -3,7 +3,7 @@ import { createContext, useContext, useState } from "react";
 import type { ReactNode } from "react";
 import type { languageType } from "../assets/lib/definitions";
 
-//
+// import des json comportant les différentes traduction
 import fr from "../locales/fr.json";
 import en from "../locales/en.json";
 

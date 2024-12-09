@@ -39,7 +39,7 @@ export default function Contact() {
 			</h2>
 			<section className="flex flex-col gap-4 lg:flex-row lg:gap-16">
 				{arrayOfContacts.map((c) => (
-					<figure key={c.name} className="flex gap-6">
+					<figure key={c.name} className="flex gap-2">
 						<img src={c.picture} alt={`logo ${c.name}`} className="h-8" />
 						<NavLink to={c.link}>
 							<figcaption className="text-acccolor font-textfont sm:text-3xl ">
