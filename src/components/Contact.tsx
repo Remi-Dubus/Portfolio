@@ -1,32 +1,54 @@
 import { NavLink } from "react-router-dom";
 import { useTranslation } from "../contexts/LangContext";
 
+import mailLogo from "../assets/images/mail-logo.png";
+import linkedinLogo from "../assets/images/linkedin-logo.png";
+import githubLogo from "../assets/images/github-logo.png";
+
 export default function Contact() {
 	// import des langues et de la fonction permetant de switcher
 	const { translations } = useTranslation();
 
+	// tableau des contacts
+	const arrayOfContacts = [
+		{
+			name: translations.contact.contactMail,
+			picture: mailLogo,
+			link: "#",
+		},
+		{
+			name: translations.contact.contactLinkedin,
+			picture: linkedinLogo,
+			link: translations.contact.contactLinkedinLink,
+		},
+		{
+			name: translations.contact.contactGithub,
+			picture: githubLogo,
+			link: translations.contact.contactGithubLink,
+		},
+	];
+
 	// JSX
 	return (
 		<article
-			id="contacts"
+			id="contact"
 			className="flex flex-col gap-2 items-center bg-black bg-opacity-50 p-4 mt-24 rounded-lg "
 		>
-			<h2 className="text-lightcolor text-2xl font-titlefont">
+			<h2 className="text-lightcolor text-2xl mb-4 font-titlefont text-center z-10 sm:text-5xl">
 				{translations.contact.contactTitle}
 			</h2>
-			<p className="text-lightcolor font-textfont">
-				{translations.contact.contactMail}
-			</p>
-			<NavLink to="https://www.linkedin.com/in/r%C3%A9mi-dubus/">
-				<p className="text-acccolor font-textfont">
-					{translations.contact.contactLinkedin}{" "}
-				</p>
-			</NavLink>
-			<NavLink to="https://github.com/Remi-Dubus">
-				<p className="text-acccolor font-textfont">
-					{translations.contact.contactGithub}
-				</p>
-			</NavLink>
+			<section className="flex flex-col gap-4 lg:flex-row lg:gap-16">
+				{arrayOfContacts.map((c) => (
+					<figure key={c.name} className="flex gap-6">
+						<img src={c.picture} alt={`logo ${c.name}`} className="h-8" />
+						<NavLink to={c.link}>
+							<figcaption className="text-acccolor font-textfont sm:text-3xl ">
+								{c.name}
+							</figcaption>
+						</NavLink>
+					</figure>
+				))}
+			</section>
 		</article>
 	);
 }

@@ -6,16 +6,16 @@ export default function ProjectsCard({
 	url,
 	picture,
 }: { alt: string; text: string; url: string; picture: string }) {
+	// JSX
 	return (
-		// JSX
 		<NavLink to={url}>
-			<figure className="h-full rounded">
+			<figure className="h-1/3 rounded">
 				<img
 					src={picture}
 					alt={alt}
-					className="h-40 rounded-lg border-2 border-lightcolor"
+					className="h-auto rounded-lg border-2 border-lightcolor hover:border-acccolor"
 				/>
-				<figcaption className="p-2 text-lightcolor font-textfont bottom-4 h-full">
+				<figcaption className=" text-lightcolor font-textfont p-4 h-auto sm:text-3xl">
 					{text}
 				</figcaption>
 			</figure>

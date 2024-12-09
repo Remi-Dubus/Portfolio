@@ -48,13 +48,12 @@ export default function Projects() {
 	return (
 		<article
 			id="projects"
-			className="flex flex-col gap-2 mt-20 p-2 h-96 bg-black bg-opacity-50 rounded-lg"
+			className="flex flex-col gap-2 mt-20 pt-4 px-4 pb-12 h-auto bg-black bg-opacity-50 rounded-lg"
 		>
-			<h1 className="text-lightcolor text-2xl font-titlefont text-center mb-4 mx-16">
+			<h1 className="text-lightcolor text-2xl font-titlefont text-center mb-4 mx-16 sm:text-5xl">
 				Projets
 			</h1>
-
-			<Slider {...settings} className="h-screen">
+			<Slider {...settings}>
 				{arrayOfSites.map((w) => (
 					<ProjectsCard
 						alt={w.alt}

@@ -5,13 +5,15 @@
 	},
 	"navbar": {
 		"about": "About",
-		"skills": "Skills",
+		"aboutLink": "/#about",
 		"projects": "Projects",
-		"contact": "Contact"
+		"projectsLink": "/#projects",
+		"contact": "Contact",
+		"contactLink": "/#contact"
 	},
 	"about": {
 		"aboutTitle": "About me",
-		"aboutText": "After 9 years of good and loyal service in the bakery, I decided to change profession, especially because of health concerns and the frantic pace. Web development seemed like a good choice to me because I have been interested in it for a while and I want to stay in a creative field.",
+		"aboutText": "After 9 years of good and loyal service in bakery, I decided to change profession, especially because of health concerns and the frantic rythm. Web development seemed like a good choice to me because I have been interested in it for a while and I want to stay in a creative field.",
 		"skillTitle": "Skills",
 		"skillArray": [
 			"GitHub",
@@ -21,7 +23,7 @@
 			"React.js",
 			"Vite.js",
 			"Tailwind",
-			"Express.js",
+			"Express",
 			"MySQL",
 			"Figma"
 		],
@@ -41,9 +43,11 @@
 	},
 	"contact": {
 		"contactTitle": "Contact",
-		"contactMail": "Mail: remdubus@gmail.com",
+		"contactMail": "remdubus@gmail.com",
 		"contactLinkedin": "Linkedin",
-		"contactGithub": "GitHub"
+		"contactLinkedinLink": "https://www.linkedin.com/in/r%C3%A9mi-dubus/",
+		"contactGithub": "GitHub",
+		"contactGithubLink": "https://github.com/Remi-Dubus"
 	},
 	"footer": {
 		"copyrigthText": "Background and flags designed by ",

@@ -34,41 +34,55 @@ export default function About() {
 
 	// JSX
 	return (
-		<article id="about" className="flex flex-col gap-2">
-			<section className="mt-20 p-4 flex flex-col items-center gap-2 bg-black bg-opacity-50 rounded-lg">
-				<h2 className="text-lightcolor text-2xl font-titlefont z-10">
+		<article
+			id="about"
+			className="flex flex-col gap-2 lg:grid lg:grid-cols-2 lg:gap-8"
+		>
+			<section className="mt-20 p-4 flex flex-col items-center gap-4 bg-black bg-opacity-50 rounded-lg">
+				<h2 className="text-lightcolor mt-4 text-2xl font-titlefont z-10 sm:text-5xl">
 					{translations.about.aboutTitle}
 				</h2>
-				<img
-					src={profilePhoto}
-					alt="Rémi Dubus"
-					className="w-36 h-36 rounded-full z-10 my-4 border-2 border-lightcolor "
-				/>
-				<p className="text-lightcolor font-textfont z-10">
-					{translations.about.aboutText}
-				</p>
+				<figure className="flex flex-col items-center sm:flex-row sm:justify-around">
+					<img
+						src={profilePhoto}
+						alt="Rémi Dubus"
+						className="w-36 h-36 rounded-full z-10 my-4 border-2 border-lightcolor sm:h-52 sm:w-52"
+					/>
+					<figcaption className="text-lightcolor font-textfont z-10 sm:text-2xl sm:w-1/2 sm:my-4">
+						{translations.about.aboutText}
+					</figcaption>
+				</figure>
 			</section>
+
 			<section
 				id="skills"
-				className="mt-20 p-8 grid grid-cols-2 items-center gap-8 bg-black bg-opacity-50 rounded-lg"
+				className="mt-20 p-8 grid grid-cols-3 items-center gap-4 bg-black bg-opacity-50 rounded-lg lg:grid-cols-3"
 			>
-				<h2 className="text-lightcolor text-2xl col-span-2 font-titlefont text-center  z-10 ">
+				<h2 className="text-lightcolor text-2xl col-span-3 font-titlefont text-center z-10 sm:text-5xl lg:col-span-3">
 					{translations.about.skillTitle}
 				</h2>
 				{arrayOfLogo.map((l, i) => (
-					<figure key={arrayOfSkills[i]}>
-						<img src={l} alt={arrayOfSkills[i]} />
-						<figcaption className="text-lightcolor font-textfont z-10 text-center mt-4">
+					<figure
+						key={arrayOfSkills[i]}
+						className="flex flex-col justify-center items-center"
+					>
+						<img
+							src={l}
+							alt={arrayOfSkills[i]}
+							className="min-h-12 max-h-12 min-w-12 max-w-12 sm:min-h-20 sm:max-h-20 sm:min-w-20 sm:max-w-20"
+						/>
+						<figcaption className="text-lightcolor font-textfont z-10 text-center mt-4 sm:text-3xl">
 							{arrayOfSkills[i]}
 						</figcaption>
 					</figure>
 				))}
 			</section>
-			<section className="mt-20 p-4 flex flex-col items-center gap-2  bg-black bg-opacity-50  rounded-lg">
-				<h2 className="text-lightcolor text-2xl font-titlefont  mb-4">
+
+			<section className="mt-20 p-4 flex flex-col items-center gap-2 bg-black bg-opacity-50 rounded-lg lg:col-span-2 lg:mt-0">
+				<h2 className="text-lightcolor text-2xl font-titlefont mb-4 sm:text-5xl">
 					{translations.about.hobbiesTitle}
 				</h2>
-				<p className="text-lightcolor font-textfont">
+				<p className="text-lightcolor font-textfont sm:text-3xl sm:p-4">
 					{translations.about.hobbiesText}
 				</p>
 			</section>

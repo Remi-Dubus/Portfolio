@@ -5,9 +5,11 @@
 	},
 	"navbar": {
 		"about": "A propos",
-		"skills": "Aptitudes",
+		"aboutLink": "/#about",
 		"projects": "Projets",
-		"contact": "Contact"
+		"projectsLink": "/#projects",
+		"contact": "Contact",
+		"contactLink": "/#contact"
 	},
 	"about": {
 		"aboutTitle": "A propos de moi",
@@ -21,7 +23,7 @@
 			"React.js",
 			"Vite.js",
 			"Tailwind",
-			"Express.js",
+			"Express",
 			"MySQL",
 			"Figma"
 		],
@@ -41,9 +43,11 @@
 	},
 	"contact": {
 		"contactTitle": "Contact",
-		"contactMail": "Mél: remdubus@gmail.com",
+		"contactMail": "remdubus@gmail.com",
 		"contactLinkedin": "Linkedin",
-		"contactGithub": "GitHub"
+		"contactLinkedinLink": "https://www.linkedin.com/in/r%C3%A9mi-dubus/",
+		"contactGithub": "GitHub",
+		"contactGithubLink": "https://github.com/Remi-Dubus"
 	},
 	"footer": {
 		"copyrigthText": "Fond et drapeaux conçu par ",

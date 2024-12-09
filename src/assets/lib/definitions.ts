@@ -5,9 +5,11 @@ export type translationType = {
 	};
 	navbar: {
 		about: string;
-		skills: string;
+		aboutLink: string;
 		projects: string;
+		projectsLink: string;
 		contact: string;
+		contactLink: string;
 	};
 	about: {
 		aboutTitle: string;
@@ -32,7 +34,9 @@ export type translationType = {
 		contactTitle: string;
 		contactMail: string;
 		contactLinkedin: string;
+		contactLinkedinLink: string;
 		contactGithub: string;
+		contactGithubLink: string;
 	};
 	footer: {
 		copyrigthText: string;

@@ -6,7 +6,7 @@ export default function HeroBanner() {
 
 	//JSX
 	return (
-		<header className="h-screen flex flex-col justify-center line font-maintitlefont text-3xl text-center text-lightcolor">
+		<header className="h-screen pt-40 flex flex-col font-maintitlefont text-3xl text-center text-lightcolor sm:pt-80 sm:text-6xl">
 			<section>
 				<h1 className="z-10 inline">{translations.hero.title}</h1>
 				<h2 className="z-10 inline text-acccolor">{translations.hero.job}</h2>

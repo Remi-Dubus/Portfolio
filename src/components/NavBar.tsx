@@ -7,26 +7,38 @@ export default function NavBar() {
 	// changement du drapeau en fonction du clic
 	const toggleFlagStyle =
 		language === "fr"
-			? "bg-flagfr bg-contain h-8 w-8 bg-center rounded-3xl"
-			: "bg-flagen bg-contain bg-cover h-8 w-8 bg-center rounded-3xl";
+			? "bg-flagfr border-2 border-lightcolor hover:border-acccolor bg-contain h-8 w-10 bg-center rounded-3xl mr-2 sm:mr-8 sm:h-12 sm:w-16"
+			: "bg-flagen border-2 border-lightcolor hover:border-acccolor bg-contain bg-cover h-8 w-10 bg-center rounded-3xl mr-2 sm:mr-8 sm:h-12 sm:w-16";
+
+	// tableau des liens
+	const arrayOfLinks = [
+		{
+			name: translations.navbar.about,
+			link: translations.navbar.aboutLink,
+		},
+		{
+			name: translations.navbar.projects,
+			link: translations.navbar.projectsLink,
+		},
+		{
+			name: translations.navbar.contact,
+			link: translations.navbar.contactLink,
+		},
+	];
 
 	// JSX
 	return (
 		<>
-			<nav className="bg-darkcolor flex justify-end items-center gap-3 h-16 sticky top-0 z-50 border-b-2 border-lightcolor">
-				<ul className="flex gap-3">
-					<li className="text-lightcolor font-titlefont">
-						<a href="/#about">{translations.navbar.about}</a>
-					</li>
-					<li className="text-lightcolor font-titlefont">
-						<a href="/#skills">{translations.navbar.skills}</a>
-					</li>
-					<li className="text-lightcolor font-titlefont">
-						<a href="/#projects">{translations.navbar.projects}</a>
-					</li>
-					<li className="text-lightcolor font-titlefont">
-						<a href="/#contacts">{translations.navbar.contact}</a>
-					</li>
+			<nav className="bg-darkcolor flex justify-end items-center gap-4 h-16 sticky top-0 z-50 border-b-2 border-lightcolor sm:h-24 sm:gap-10">
+				<ul className="flex ml-3 gap-4 w-full justify-around sm:gap-12">
+					{arrayOfLinks.map((l) => (
+						<li
+							className="text-lightcolor font-titlefont sm:text-3xl hover:text-acccolor"
+							key={l.name}
+						>
+							<a href={l.link}>{l.name}</a>
+						</li>
+					))}
 				</ul>
 				<button
 					type="button"

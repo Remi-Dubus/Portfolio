@@ -8,11 +8,16 @@ export default function Footer() {
 	//JSX
 	return (
 		<>
-			<footer className="bg-darkcolor bg-cover flex flex-col justify-center items-center h-32 border-t-2 border-lightcolor">
-				<span className="text-lightcolor">&copy; 2024 Rémi Dubus.</span>
-				<span className="text-center text-lightcolor">
+			<footer className="bg-darkcolor bg-cover flex flex-col justify-center items-center h-32 border-t-2 border-lightcolor sm:text-3xl sm:h-64">
+				<span className="text-lightcolor font-textfont">
+					&copy; 2024 Rémi Dubus.
+				</span>
+				<span className="text-center text-lightcolor font-textfont">
 					{translations.footer.copyrigthText}{" "}
-					<NavLink className="text-acccolor" to="http://www.freepik.com">
+					<NavLink
+						className="text-acccolor font-textfont"
+						to="http://www.freepik.com"
+					>
 						{translations.footer.copyrigthLink}
 					</NavLink>
 				</span>
