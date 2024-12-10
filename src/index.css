@@ -13,5 +13,5 @@
 /* autres */
 * {
 	scroll-behavior: smooth;
-	overflow-x: clip;
+	overflow-x: hidden;
 }
