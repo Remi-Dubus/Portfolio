@@ -13,7 +13,7 @@ export default function ProjectsCard({
 				<img
 					src={picture}
 					alt={alt}
-					className="h-auto rounded-lg border-2 border-lightcolor hover:border-acccolor lg:border-4"
+					className="h-auto rounded-lg border-4 border-lightcolor hover:border-acccolor"
 				/>
 				<figcaption className=" text-lightcolor font-textfont p-4 h-auto sm:text-3xl">
 					{text}

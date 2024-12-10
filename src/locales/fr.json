@@ -16,7 +16,7 @@
 		"aboutText": "Après 9 ans de bon et loyaux service en boulangerie, j'ai décidé de changer de profession notamment à cause de soucis de santé, et du rythme effréné. Le développement web m'a semblé un être un bon choix car je m'y interresse depuis un moment et je souhaite rester dans un domaine créatif.",
 		"skillTitle": "Aptitudes",
 		"skillArray": [
-			"GitHub",
+			"Git",
 			"HTML",
 			"CSS",
 			"Node.js",
@@ -42,7 +42,7 @@
 		"boarderlineUrl": "https://boarder-line-project.vercel.app/"
 	},
 	"contact": {
-		"contactTitle": "Contact",
+		"contactTitle": "Contactez moi",
 		"contactMail": "remdubus@gmail.com",
 		"contactLinkedin": "Linkedin",
 		"contactLinkedinLink": "https://www.linkedin.com/in/r%C3%A9mi-dubus/",

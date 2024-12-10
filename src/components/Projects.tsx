@@ -12,11 +12,11 @@ export default function Projects() {
 		arrows: false,
 		dots: true,
 		infinite: true,
-		speed: 500,
+		speed: 1000,
 		slidesToShow: 2,
 		slidesToScroll: 2,
 		autoplay: true,
-		autoplaySpeed: 3000,
+		autoplaySpeed: 5000,
 		draggable: true,
 		responsive: [
 			{

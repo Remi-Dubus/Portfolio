@@ -47,7 +47,7 @@ export default function About() {
 					<img
 						src={profilePhoto}
 						alt="Rémi Dubus"
-						className="w-36 h-36 rounded-full z-10 my-4 border-2 border-lightcolor sm:h-52 sm:w-52 lg:border-4"
+						className="w-36 h-36 rounded-full z-10 my-4 border-4 border-lightcolor sm:h-52 sm:w-52"
 					/>
 					<figcaption className="text-lightcolor font-textfont z-10 sm:text-2xl sm:w-1/2 sm:my-4">
 						{translations.about.aboutText}

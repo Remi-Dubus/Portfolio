@@ -16,7 +16,7 @@
 		"aboutText": "After 9 years of good and loyal service in bakery, I decided to change profession, especially because of health concerns and the frantic rythm. Web development seemed like a good choice to me because I have been interested in it for a while and I want to stay in a creative field.",
 		"skillTitle": "Skills",
 		"skillArray": [
-			"GitHub",
+			"Git",
 			"HTML",
 			"CSS",
 			"Node.js",
@@ -42,7 +42,7 @@
 		"boarderlineUrl": "https://boarder-line-project.vercel.app/"
 	},
 	"contact": {
-		"contactTitle": "Contact",
+		"contactTitle": "Contact me",
 		"contactMail": "remdubus@gmail.com",
 		"contactLinkedin": "Linkedin",
 		"contactLinkedinLink": "https://www.linkedin.com/in/r%C3%A9mi-dubus/",
