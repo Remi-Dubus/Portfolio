@@ -7,7 +7,6 @@ export default {
 				flagfr: "url('./assets/images/french_flag.jpg')",
 				flagen: "url('./assets/images/britain_flag.jpg')",
 				main: "url('./assets/images/zodiac_background_desktop.png')",
-				mainmobile: "url('./assets/images/zodiac_background_mobile.png')",
 			},
 			colors: {
 				darkcolor: "#070F18",

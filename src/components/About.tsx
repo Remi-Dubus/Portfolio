@@ -37,19 +37,19 @@ export default function About() {
 	return (
 		<article
 			id="about"
-			className="flex flex-col gap-2 lg:grid lg:grid-cols-2 lg:gap-8"
+			className="flex flex-col gap-4 lg:grid lg:grid-cols-2 lg:gap-8"
 		>
-			<section className="mt-20 p-4 flex flex-col items-center gap-4 bg-slate-700 bg-opacity-50 rounded-lg">
+			<section className="mx-4 mt-20 p-4 flex flex-col items-center gap-4 bg-slate-700 bg-opacity-50 rounded-lg lg:ml-8 lg:mr-0">
 				<h2 className="text-lightcolor mt-4 text-2xl font-titlefont z-10 sm:text-5xl">
 					{translations.about.aboutTitle}
 				</h2>
-				<figure className="flex flex-col items-center sm:flex-row sm:justify-around">
+				<figure className="flex flex-col place-items-center sm:flex-row sm:justify-around">
 					<img
 						src={profilePhoto}
 						alt="Rémi Dubus"
 						className="w-36 h-36 rounded-full z-10 my-4 border-4 border-lightcolor sm:h-52 sm:w-52"
 					/>
-					<figcaption className="text-lightcolor font-textfont z-10 sm:text-2xl sm:w-1/2 sm:my-4">
+					<figcaption className="text-lightcolor font-textfont z-10 sm:text-2xl sm:w-1/2 sm:my-4 lg:my-12">
 						{translations.about.aboutText}
 					</figcaption>
 				</figure>
@@ -57,7 +57,7 @@ export default function About() {
 
 			<section
 				id="skills"
-				className="mt-20 p-8 grid grid-cols-3 items-center gap-4 bg-slate-700 bg-opacity-50 rounded-lg lg:grid-cols-3"
+				className="mx-4 mt-20 p-8 grid grid-cols-3 items-center gap-4 bg-slate-700 bg-opacity-50 rounded-lg lg:mr-8 lg:ml-0 lg:grid-cols-3"
 			>
 				<h2 className="text-lightcolor text-2xl col-span-3 font-titlefont text-center z-10 sm:text-5xl lg:col-span-3">
 					{translations.about.skillTitle}
@@ -79,7 +79,7 @@ export default function About() {
 				))}
 			</section>
 
-			<section className="mt-20 p-4 flex flex-col items-center gap-2 bg-slate-700 bg-opacity-50 rounded-lg lg:col-span-2 lg:mt-0">
+			<section className="mx-4 mt-20 p-4 flex flex-col items-center gap-2 bg-slate-700 bg-opacity-50 rounded-lg lg:col-span-2 lg:mt-0 lg:mx-8">
 				<h2 className="text-lightcolor text-2xl font-titlefont mb-4 sm:text-5xl">
 					{translations.about.hobbiesTitle}
 				</h2>

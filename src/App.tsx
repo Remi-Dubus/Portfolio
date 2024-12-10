@@ -7,9 +7,6 @@ import { LangProvider } from "./contexts/LangContext";
 function App() {
 	return (
 		<LangProvider>
-			<section className=" h-full w-full bg-mainmobile bg-cover bg-no-repeat bg-center -top-1/2 animate-spin-slow opacity-50 absolute z-0 sm:bg-main sm:bg-contain">
-				{" "}
-			</section>
 			<NavBar />
 			<Outlet />
 			<Footer />

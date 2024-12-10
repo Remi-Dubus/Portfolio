@@ -32,7 +32,7 @@ export default function Contact() {
 	return (
 		<article
 			id="contact"
-			className="flex flex-col gap-2 items-center bg-slate-700 bg-opacity-50 p-4 mt-24 rounded-lg "
+			className="mx-4 flex flex-col gap-2 items-center bg-slate-700 bg-opacity-50 p-4 mt-24 rounded-lg lg:mx-8"
 		>
 			<h2 className="text-lightcolor text-2xl mb-4 font-titlefont text-center z-10 sm:text-5xl">
 				{translations.contact.contactTitle}
