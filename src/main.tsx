@@ -5,13 +5,13 @@ import "./index.css";
 
 const rootElement = document.getElementById("root");
 if (rootElement == null) {
-	throw new Error(`Your HTML Document should contain a <div id="root"></div>`);
+  throw new Error(`Your HTML Document should contain a <div id="root"></div>`);
 }
 
 import { mainRouter } from "./router";
 
 createRoot(rootElement).render(
-	<StrictMode>
-		<RouterProvider router={mainRouter} />
-	</StrictMode>,
+  <StrictMode>
+    <RouterProvider router={mainRouter} />
+  </StrictMode>,
 );

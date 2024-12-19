@@ -1,10 +1,11 @@
 import { useTranslation } from "../contexts/LangContext";
 
-import profilePhoto from "../assets/images/remidubus.jpg";
+import profilePhoto from "../assets/images/remidubus.png";
 import gitLogo from "../assets/images/git-logo.png";
 import htmlLogo from "../assets/images/html-logo.png";
 import cssLogo from "../assets/images/css-logo.png";
 import nodeLogo from "../assets/images/node-logo.png";
+import typescriptLogo from "../assets/images/typescript-logo.png";
 import reactLogo from "../assets/images/react-logo.png";
 import viteLogo from "../assets/images/vite-logo.png";
 import tailwindLogo from "../assets/images/tailwind-logo.png";
@@ -22,6 +23,7 @@ export default function About() {
 		htmlLogo,
 		cssLogo,
 		nodeLogo,
+		typescriptLogo,
 		reactLogo,
 		viteLogo,
 		tailwindLogo,
