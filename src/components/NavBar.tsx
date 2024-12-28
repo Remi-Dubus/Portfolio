@@ -29,11 +29,11 @@ export default function NavBar() {
 	// JSX
 	return (
 		<>
-			<nav className="bg-darkcolor flex justify-end items-center gap-4 h-16 sticky top-0 z-50 border-b-2 border-lightcolor sm:h-24 sm:gap-10">
+			<nav className="bg-darkcolor flex justify-end items-center gap-4 h-16 sticky top-0 z-50 border-b-2 border-lightcolor lg:h-24 sm:gap-10">
 				<ul className="flex ml-3 gap-4 w-full justify-around sm:gap-12">
 					{arrayOfLinks.map((l) => (
 						<li
-							className="text-lightcolor font-titlefont sm:text-3xl hover:text-acccolor"
+							className="text-lightcolor font-titlefont sm:text-xl lg:text-3xl hover:text-acccolor"
 							key={l.name}
 						>
 							<a href={l.link}>{l.name}</a>

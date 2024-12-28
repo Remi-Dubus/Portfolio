@@ -41,11 +41,11 @@ export default function About() {
 			id="about"
 			className="flex flex-col gap-4 lg:grid lg:grid-cols-2 lg:gap-8"
 		>
-			<section className="mx-4 mt-20 p-4 flex flex-col items-center gap-4 bg-slate-700 bg-opacity-50 rounded-lg lg:ml-8 lg:mr-0">
-				<h2 className="text-lightcolor mt-4 text-2xl font-titlefont z-10 sm:text-5xl">
+			<section className="mx-4 mt-20 p-4 flex flex-col justify-start items-center gap-4 bg-slate-700 bg-opacity-50 rounded-lg lg:ml-8 lg:mr-0">
+				<h2 className="text-lightcolor mt-6 text-2xl font-titlefont z-10 sm:text-5xl">
 					{translations.about.aboutTitle}
 				</h2>
-				<figure className="flex flex-col place-items-center sm:flex-row sm:justify-around">
+				<figure className="flex flex-col items-center sm:flex-row sm:justify-around">
 					<img
 						src={profilePhoto}
 						alt="Rémi Dubus"
@@ -61,7 +61,7 @@ export default function About() {
 				id="skills"
 				className="mx-4 mt-20 p-8 grid grid-cols-3 items-center gap-4 bg-slate-700 bg-opacity-50 rounded-lg lg:mr-8 lg:ml-0 lg:grid-cols-3"
 			>
-				<h2 className="text-lightcolor text-2xl col-span-3 font-titlefont text-center z-10 sm:text-5xl lg:col-span-3">
+				<h2 className="text-lightcolor mb-8 text-2xl col-span-3 font-titlefont text-center z-10 sm:text-5xl lg:col-span-3">
 					{translations.about.skillTitle}
 				</h2>
 				{arrayOfLogo.map((l, i) => (
