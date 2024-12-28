@@ -1,8 +1,5 @@
-import { useTranslation } from "../contexts/LangContext";
-
 export default function HeroBanner() {
 	// import des langues et de la fonction permetant de switcher
-	const { translations } = useTranslation();
 
 	//JSX
 	return (
