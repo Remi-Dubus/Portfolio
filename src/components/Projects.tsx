@@ -28,6 +28,7 @@ export default function Projects() {
 			},
 		],
 	};
+
 	// import des langues et de la fonction permetant de switcher
 	const { translations } = useTranslation();
 
