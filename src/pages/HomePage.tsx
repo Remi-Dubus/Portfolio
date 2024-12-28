@@ -6,7 +6,7 @@ import Contact from "../components/Contact";
 export default function HomePage() {
 	return (
 		<>
-			<main className="bg-main bg-darkcolor bg-fixed bg-cover pb-4 sm:pb-20">
+			<main className="bg-main bg-darkcolor bg-scroll bg-contain pb-4 sm:pb-20">
 				<HeroBanner />
 				<About />
 				<Projects />
