@@ -37,7 +37,6 @@ export default function NavBar() {
 							key={l.name}
 						>
 							<a href={l.link}>{l.name}</a>
-							<p>d</p>{" "}
 						</li>
 					))}
 				</ul>
