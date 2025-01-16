@@ -57,7 +57,7 @@ export default function Projects() {
 	return (
 		<article
 			id="projects"
-			className="mx-4 flex flex-col gap-4 mt-20 pt-4 px-4 pb-12 h-auto bg-slate-700 bg-opacity-50 rounded-lg lg:mx-8"
+			className="mx-4 flex flex-col gap-4 mt-20 pt-4 px-4 pb-12 h-auto bg-slate-700 bg-opacity-50 rounded-lg lg:mx-8 lg:py-16"
 		>
 			<h1 className="text-lightcolor text-2xl font-titlefont text-center mb-4 mx-16 sm:text-5xl">
 				Projets

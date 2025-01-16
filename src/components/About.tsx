@@ -81,7 +81,7 @@ export default function About() {
 				))}
 			</section>
 
-			<section className="mx-4 mt-20 p-4 flex flex-col items-center gap-2 bg-slate-700 bg-opacity-50 rounded-lg lg:col-span-2 lg:mt-0 lg:mx-8">
+			<section className="mx-4 mt-20 p-4 flex flex-col items-center gap-2 bg-slate-700 bg-opacity-50 rounded-lg lg:col-span-2 lg:mt-0 lg:mx-8 lg:py-16">
 				<h2 className="text-lightcolor text-2xl font-titlefont mb-4 sm:text-5xl">
 					{translations.about.hobbiesTitle}
 				</h2>
