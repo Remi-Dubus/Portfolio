@@ -13,7 +13,10 @@
 	},
 	"about": {
 		"aboutTitle": "About me",
-		"aboutText": "After 9 years of goods and loyal service in bakery, I decided to change profession, especially because of the frantic rythm. Web development seemed like a good choice to me because I have been interested in it for a while and I want to stay in a creative field.",
+		"aboutTextPart1": "After nine years of loyal service in the bakery industry, I decided to change careers, primarily due to the fast-paced work environment.",
+		"aboutTextPart2": "To reorient myself, I chose web development, a field that had interested me for a long time and which allowed me to stay in an environment where we shape a product, much like in baking.",
+		"aboutTextPart3": "I completed training at Wild Code School, where I learned the basics of web development and the best practices in web development.",
+		"aboutTextPart4": "Since finishing my training, I continue to practice regularly to improve my skills. I enjoy learning new things and staying curious to progress in my field.",
 		"skillTitle": "Skills",
 		"skillArray": [
 			"Git",
@@ -31,7 +34,7 @@
 			"Agile"
 		],
 		"hobbiesTitle": "But still...",
-		"hobbiesText": "Apart from web development, I like reading scientific journals, especially on space. I also enjoy the preparation of homemade breads and pizzas and the drawing. In addition, I devote some time to video games."
+		"hobbiesText": "Apart of web development, I have a strong interest in science, particularly astronomy, which I explore through reading specialized journals. I also enjoy cooking, especially baking homemade bread and pizzas, an activity I find both creative and relaxing. Drawing is another one of my hobbies, along with playing video games, which I appreciate for their rich storytelling and immersive worlds."
 	},
 	"project": {
 		"croustiEatAlt": "Picture of Crousti Eat website",

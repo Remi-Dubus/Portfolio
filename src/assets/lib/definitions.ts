@@ -13,7 +13,10 @@ export type translationType = {
 	};
 	about: {
 		aboutTitle: string;
-		aboutText: string;
+		aboutTextPart1: string;
+		aboutTextPart2: string;
+		aboutTextPart3: string;
+		aboutTextPart4: string;
 		skillTitle: string;
 		skillArray: string[];
 		hobbiesTitle: string;
