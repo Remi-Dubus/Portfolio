@@ -46,10 +46,10 @@ export default function About() {
 			className="flex flex-col gap-4 lg:grid lg:grid-cols-2 lg:gap-8"
 		>
 			<section className="mx-4 mt-10 p-4 flex flex-col justify-start items-center gap-4 bg-slate-700 bg-opacity-50 rounded-lg lg:ml-8 lg:mr-0">
-				<h2 className="text-lightcolor mt-6 text-2xl font-titlefont z-10 sm:text-5xl">
+				<h2 className="text-lightcolor mt-6 text-2xl font-titlefont z-10 sm:text-5xl lg:mt-4">
 					{translations.about.aboutTitle}
 				</h2>
-				<figure className="flex flex-col items-center sm:flex-row sm:justify-around">
+				<figure className="flex flex-col items-center sm:flex-row sm:justify-around lg:my-auto">
 					<img
 						src={profilePhoto}
 						alt="Rémi Dubus"
