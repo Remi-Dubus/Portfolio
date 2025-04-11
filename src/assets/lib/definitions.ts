@@ -41,6 +41,7 @@ export type translationType = {
 		contactGithub: string;
 		contactGithubLink: string;
 		contactDownloadCV: string;
+		contactHere: string;
 	};
 	footer: {
 		copyrigthText: string;

@@ -5,6 +5,8 @@ import mailLogo from "../assets/images/mail-logo.png";
 import linkedinLogo from "../assets/images/linkedin-logo.png";
 import githubLogo from "../assets/images/github-logo.png";
 
+import cv from "/CV-Remi-DUBUS.pdf?url";
+
 export default function Contact() {
 	// import des langues et de la fonction permetant de switcher
 	const { translations } = useTranslation();
@@ -49,9 +51,17 @@ export default function Contact() {
 					</figure>
 				))}
 			</section>
-			<h2 className="text-lightcolor text-2xl mb-4 mt-8 font-titlefont text-center z-10 sm:text-5xl">
-				{translations.contact.contactDownloadCV}
-			</h2>
+			<section className="flex gap-2 lg:flex-row">
+				<p className="text-lightcolor text-xl mb-4 mt-8 font-titlefont text-center z-10 sm:text-3xl">
+					{translations.contact.contactDownloadCV}
+				</p>
+				<a
+					href={cv}
+					className="text-acccolor text-xl mb-4 mt-8 font-titlefont text-center z-10 sm:text-3xl"
+				>
+					{translations.contact.contactHere}
+				</a>
+			</section>
 		</article>
 	);
 }
