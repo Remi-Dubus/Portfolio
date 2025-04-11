@@ -26,7 +26,9 @@
 			"Tailwind",
 			"Express",
 			"MySQL",
-			"Figma"
+			"Next.js",
+			"Figma",
+			"Agile"
 		],
 		"hobbiesTitle": "But still...",
 		"hobbiesText": "Apart from web development, I like reading scientific journals, especially on space. I also enjoy the preparation of homemade breads and pizzas and the drawing. In addition, I devote some time to video games."
@@ -38,9 +40,14 @@
 		"buyAPlanetAlt": "Picture of Buy A Planet website",
 		"buyAPlanetText": "Fictional Planet Sales Website, created as part of my training, this project helped me learn the basics of React, including props and states.",
 		"buyAPlanetUrl": "https://buy-a-planet-project.vercel.app/",
+		"eshopAlt": "Picture of eshop",
+		"eshopText": "During my training, I developed an e-commerce site in React, focused on data retrieval via fetch() and state management.  This project allowed me to strengthen my skills with React and API integration.",
+		"eshopUrl": "https://eshop-project-psi.vercel.app/",
 		"boarderlineAlt": "Picture of Boarder Line website",
 		"boarderlineText": "Board Game Listing Website, project developed during my training to further explore React and learn how to fetch data from a REST API.",
-		"boarderlineUrl": "https://boarder-line-project.vercel.app/"
+		"boarderlineUrl": "https://boarder-line-project.vercel.app/",
+		"GeocodeAlt": "Picture of Geocode",
+		"GeocodeText": "GeoCode is a charging station management platform for electric vehicle users. It was developed as part of my training to learn how to use Express with MySQL."
 	},
 	"contact": {
 		"contactTitle": "Contact me",
@@ -48,7 +55,8 @@
 		"contactLinkedin": "Linkedin",
 		"contactLinkedinLink": "https://www.linkedin.com/in/r-dubus/",
 		"contactGithub": "GitHub",
-		"contactGithubLink": "https://github.com/Remi-Dubus"
+		"contactGithubLink": "https://github.com/Remi-Dubus",
+		"contactDownloadCV": "Download my CV"
 	},
 	"footer": {
 		"copyrigthText": "Background and flags designed by ",

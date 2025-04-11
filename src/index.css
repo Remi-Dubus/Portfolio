@@ -10,7 +10,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* autres */
-* {
-	scroll-behavior: smooth;
+html {
+	scroll-padding-top: 5em;
 }
