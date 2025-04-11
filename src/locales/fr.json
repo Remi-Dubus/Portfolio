@@ -34,7 +34,7 @@
 			"Agile"
 		],
 		"hobbiesTitle": "Mais encore...",
-		"hobbiesText": "En dehors du développement web, j'aime la lecture de revues scientifiques, notamment sur l'espace. J'apprécie également la préparation de pains et pizzas maison et le dessin. Par ailleurs, je consacre un peu de temps aux jeux vidéo."
+		"hobbiesText": "En dehors du développement web, je m'intéresse aux sciences, en particulier à l’astronomie, à travers la lecture de revues spécialisées. J’aime aussi cuisiner, notamment préparer pains et pizzas maison, une activité que je trouve à la fois créative et apaisante. Le dessin fait partie de mes loisirs, tout comme les jeux vidéo, que j’apprécie pour leur richesse narrative et immersive."
 	},
 	"project": {
 		"croustiEatAlt": "Image du site Crousti Eat",
@@ -59,7 +59,8 @@
 		"contactLinkedinLink": "https://www.linkedin.com/in/r-dubus/",
 		"contactGithub": "GitHub",
 		"contactGithubLink": "https://github.com/Remi-Dubus",
-		"contactDownloadCV": "Telecharger mon CV"
+		"contactDownloadCV": "Telecharger mon CV",
+		"contactHere": "ici"
 	},
 	"footer": {
 		"copyrigthText": "Fond et drapeaux conçu par ",
