@@ -12,6 +12,8 @@ import tailwindLogo from "../assets/images/tailwind-logo.png";
 import expressLogo from "../assets/images/express-logo.png";
 import mysqlLogo from "../assets/images/mysql-logo.webp";
 import figmaLogo from "../assets/images/figma-logo.png";
+import nextJsLogo from "../assets/images/next-logo.png";
+import agileLogo from "../assets/images/agile-logo.png";
 
 export default function About() {
 	// import des langues et de la fonction permetant de switcher
@@ -29,7 +31,9 @@ export default function About() {
 		tailwindLogo,
 		expressLogo,
 		mysqlLogo,
+		nextJsLogo,
 		figmaLogo,
+		agileLogo,
 	];
 
 	// tableaux des noms des skills
@@ -41,7 +45,7 @@ export default function About() {
 			id="about"
 			className="flex flex-col gap-4 lg:grid lg:grid-cols-2 lg:gap-8"
 		>
-			<section className="mx-4 mt-20 p-4 flex flex-col justify-start items-center gap-4 bg-slate-700 bg-opacity-50 rounded-lg lg:ml-8 lg:mr-0">
+			<section className="mx-4 mt-10 p-4 flex flex-col justify-start items-center gap-4 bg-slate-700 bg-opacity-50 rounded-lg lg:ml-8 lg:mr-0">
 				<h2 className="text-lightcolor mt-6 text-2xl font-titlefont z-10 sm:text-5xl">
 					{translations.about.aboutTitle}
 				</h2>
@@ -59,7 +63,7 @@ export default function About() {
 
 			<section
 				id="skills"
-				className="mx-4 mt-20 p-8 grid grid-cols-3 items-center gap-4 bg-slate-700 bg-opacity-50 rounded-lg lg:mr-8 lg:ml-0 lg:grid-cols-3"
+				className="mx-4 mt-10 p-8 grid grid-cols-3 items-center gap-4 bg-slate-700 bg-opacity-50 rounded-lg lg:mr-8 lg:ml-0 lg:grid-cols-3"
 			>
 				<h2 className="text-lightcolor mb-8 text-2xl col-span-3 font-titlefont text-center z-10 sm:text-5xl lg:col-span-3">
 					{translations.about.skillTitle}

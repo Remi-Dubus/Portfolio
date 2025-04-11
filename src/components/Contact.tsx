@@ -49,6 +49,9 @@ export default function Contact() {
 					</figure>
 				))}
 			</section>
+			<h2 className="text-lightcolor text-2xl mb-4 mt-8 font-titlefont text-center z-10 sm:text-5xl">
+				{translations.contact.contactDownloadCV}
+			</h2>
 		</article>
 	);
 }

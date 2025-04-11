@@ -26,6 +26,9 @@ export type translationType = {
 		buyAPlanetAlt: string;
 		buyAPlanetText: string;
 		buyAPlanetUrl: string;
+		eshopAlt: string;
+		eshopText: string;
+		eshopUrl: string;
 		boarderlineAlt: string;
 		boarderlineText: string;
 		boarderlineUrl: string;
@@ -37,6 +40,7 @@ export type translationType = {
 		contactLinkedinLink: string;
 		contactGithub: string;
 		contactGithubLink: string;
+		contactDownloadCV: string;
 	};
 	footer: {
 		copyrigthText: string;

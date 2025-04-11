@@ -6,6 +6,7 @@ import ProjectsCard from "./ProjectCard";
 import croustiEatPicture from "../assets/images/crouti-eat-picture.png";
 import buyAPlanetPicture from "../assets/images/buy-a-planet-picture.png";
 import boarderLinePicture from "../assets/images/borderline-picture.png";
+import eshopPicture from "../assets/images/eshop-picture.png";
 
 export default function Projects() {
 	const settings = {
@@ -13,7 +14,7 @@ export default function Projects() {
 		dots: true,
 		infinite: true,
 		speed: 1000,
-		slidesToShow: 2,
+		slidesToShow: 3,
 		slidesToScroll: 2,
 		autoplay: true,
 		autoplaySpeed: 5000,
@@ -44,6 +45,12 @@ export default function Projects() {
 			text: translations.project.buyAPlanetText,
 			url: translations.project.buyAPlanetUrl,
 			picture: buyAPlanetPicture,
+		},
+		{
+			alt: translations.project.eshopAlt,
+			text: translations.project.eshopText,
+			url: translations.project.eshopUrl,
+			picture: eshopPicture,
 		},
 		{
 			alt: translations.project.boarderlineAlt,
