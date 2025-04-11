@@ -45,18 +45,21 @@ export default function About() {
 			id="about"
 			className="flex flex-col gap-4 lg:grid lg:grid-cols-2 lg:gap-8"
 		>
-			<section className="mx-4 mt-10 p-4 flex flex-col justify-start items-center gap-4 bg-slate-700 bg-opacity-50 rounded-lg lg:ml-8 lg:mr-0">
+			<section className="mx-4 mt-10 p-4 flex flex-col justify-start items-center gap-4 bg-slate-700 bg-opacity-50 rounded-lg lg:ml-8 lg:mr-0 lg:px-28">
 				<h2 className="text-lightcolor mt-6 text-2xl font-titlefont z-10 sm:text-5xl lg:mt-4">
 					{translations.about.aboutTitle}
 				</h2>
-				<figure className="flex flex-col items-center sm:flex-row sm:justify-around lg:my-auto">
+				<figure className="flex flex-col items-center sm:flex-row sm:justify-around lg:my-auto lg:block">
 					<img
 						src={profilePhoto}
 						alt="Rémi Dubus"
-						className="w-36 h-36 rounded-full z-10 my-4 border-4 border-lightcolor sm:h-52 sm:w-52"
+						className="w-36 h-36 rounded-full z-10 my-4 border-4 border-lightcolor sm:h-52 sm:w-52 lg:float-left lg:mr-8"
 					/>
-					<figcaption className="text-lightcolor font-textfont z-10 sm:text-3xl sm:w-1/2 sm:my-4 lg:my-12">
-						{translations.about.aboutText}
+					<figcaption className="text-lightcolor font-textfont z-10 sm:text-3xl sm:w-1/2 sm:my-4 lg:my-12 lg:w-fit">
+						<p>{translations.about.aboutTextPart1}</p>
+						<p className="mt-4 lg:mt-8">{translations.about.aboutTextPart2}</p>
+						<p className="mt-4 lg:mt-8">{translations.about.aboutTextPart3}</p>
+						<p className="mt-4 lg:mt-8">{translations.about.aboutTextPart4}</p>
 					</figcaption>
 				</figure>
 			</section>

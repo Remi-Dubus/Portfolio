@@ -13,7 +13,10 @@
 	},
 	"about": {
 		"aboutTitle": "A propos de moi",
-		"aboutText": "Après 9 ans de bons et loyaux service en boulangerie, j'ai décidé de changer de profession notamment à cause du rythme effréné. Le développement web m'a semblé un être un bon choix car je m'y interresse depuis un moment et je souhaite rester dans un domaine créatif.",
+		"aboutTextPart1": "Après neuf années de bons et loyaux services dans le domaine de la boulangerie, j'ai décidé de changer de profession, principalement en raison du rythme de travail effréné.",
+		"aboutTextPart2": "Afin de me réorienter, j'ai choisi le développement web, un domaine qui m'intéressait depuis longtemps et qui m'a permis de rester dans un environnement où l'on façonne un produit, tout comme en boulangerie.",
+		"aboutTextPart3": "J'ai suivi une formation à la Wild Code School, où j'ai appris les base du développement web et les bonnes pratiques du développement web.",
+		"aboutTextPart4": "Depuis la fin de ma formation, je continue à pratiquer régulièrement pour améliorer mes compétences. J'aime apprendre de nouvelles choses et rester curieux, afin de progresser dans mon domaine.",
 		"skillTitle": "Aptitudes",
 		"skillArray": [
 			"Git",
@@ -56,8 +59,7 @@
 		"contactLinkedinLink": "https://www.linkedin.com/in/r-dubus/",
 		"contactGithub": "GitHub",
 		"contactGithubLink": "https://github.com/Remi-Dubus",
-		"contactDownloadCV": "Telecharger mon CV",
-		"contactHere": "ici"
+		"contactDownloadCV": "Telecharger mon CV"
 	},
 	"footer": {
 		"copyrigthText": "Fond et drapeaux conçu par ",
