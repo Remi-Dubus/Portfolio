@@ -8,6 +8,8 @@ import buyAPlanetPicture from "../assets/images/buy-a-planet-picture.png";
 import boarderLinePicture from "../assets/images/borderline-picture.png";
 import eshopPicture from "../assets/images/eshop-picture.png";
 
+import geocodeVideo from "../assets/video/geocode-video.mp4";
+
 export default function Projects() {
 	const settings = {
 		arrows: false,
@@ -39,24 +41,35 @@ export default function Projects() {
 			text: translations.project.croustiEatText,
 			url: translations.project.croustiEatUrl,
 			picture: croustiEatPicture,
+			video: null,
 		},
 		{
 			alt: translations.project.buyAPlanetAlt,
 			text: translations.project.buyAPlanetText,
 			url: translations.project.buyAPlanetUrl,
 			picture: buyAPlanetPicture,
+			video: null,
 		},
 		{
 			alt: translations.project.eshopAlt,
 			text: translations.project.eshopText,
 			url: translations.project.eshopUrl,
 			picture: eshopPicture,
+			video: null,
 		},
 		{
 			alt: translations.project.boarderlineAlt,
 			text: translations.project.boarderlineText,
 			url: translations.project.boarderlineUrl,
 			picture: boarderLinePicture,
+			video: null,
+		},
+		{
+			alt: translations.project.geocodeAlt,
+			text: translations.project.geocodeText,
+			url: "#",
+			picture: null,
+			video: geocodeVideo,
 		},
 	];
 
@@ -77,6 +90,7 @@ export default function Projects() {
 						text={w.text}
 						url={w.url}
 						picture={w.picture}
+						video={w.video}
 					/>
 				))}
 			</Slider>
