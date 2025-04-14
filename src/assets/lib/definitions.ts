@@ -35,6 +35,8 @@ export type translationType = {
 		boarderlineAlt: string;
 		boarderlineText: string;
 		boarderlineUrl: string;
+		geocodeAlt: string;
+		geocodeText: string;
 	};
 	contact: {
 		contactTitle: string;
