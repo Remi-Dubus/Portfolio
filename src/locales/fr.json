@@ -49,8 +49,8 @@
 		"boarderlineAlt": "Image du site Boarder Line",
 		"boarderlineText": "Site de référencement de jeux de société, réalisé dans le cadre de ma formation pour approfondir React et apprendre à fetcher une API REST.",
 		"boarderlineUrl": "https://boarder-line-project.vercel.app/",
-		"GeocodeAlt": "Image du site Geocode",
-		"GeocodeText": "GeoCode est une plateforme de gestion de bornes de recharge pour les utilisateurs de véhicules électriques. Realisé dans le cadre de ma formation pour apprendre l'utilisation de Express avec MySQL."
+		"geocodeAlt": "Image du site Geocode",
+		"geocodeText": "GeoCode est une plateforme de gestion de bornes de recharge pour les utilisateurs de véhicules électriques. Realisé dans le cadre de ma formation pour apprendre l'utilisation de Express avec MySQL."
 	},
 	"contact": {
 		"contactTitle": "Contactez moi",
