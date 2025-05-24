@@ -45,12 +45,16 @@
 		"buyAPlanetUrl": "https://buy-a-planet-project.vercel.app/",
 		"eshopAlt": "Image du site eshop",
 		"eshopText": "Lors de ma formation, j'ai développé un site e-commerce en React, axé sur la récupération de données via fetch() et la gestion d'état.  Ce projet m'a permis de renforcer mes compétences avec React et l'intégration d'API.",
-		"eshopUrl": "https://eshop-project-psi.vercel.app/",
+		"eshopUrl": "https://eshop-remi-dubus.vercel.app/",
 		"boarderlineAlt": "Image du site Boarder Line",
 		"boarderlineText": "Site de référencement de jeux de société, réalisé dans le cadre de ma formation pour approfondir React et apprendre à fetcher une API REST.",
 		"boarderlineUrl": "https://boarder-line-project.vercel.app/",
 		"geocodeAlt": "Image du site Geocode",
-		"geocodeText": "GeoCode est une plateforme de gestion de bornes de recharge pour les utilisateurs de véhicules électriques. Realisé dans le cadre de ma formation pour apprendre l'utilisation de Express avec MySQL."
+		"geocodeText": "GeoCode est une plateforme de gestion de bornes de recharge pour les utilisateurs de véhicules électriques. Realisé dans le cadre de ma formation pour apprendre l'utilisation de Express avec MySQL.",
+		"geocodeUrl": "https://github.com/Remi-Dubus/Geocode",
+		"fournilExpressAlt": "Image du site Fournil Express",
+		"fournilExpressText": "Fournil Express est un site de mise en relation entre professionnel de la restauration et de la boulangerie afin de faciliter les commandes de produits. Projet personnel réalisé avec Next.js",
+		"fournilExpressUrl": "https://fournil-express.vercel.app/"
 	},
 	"contact": {
 		"contactTitle": "Contactez moi",

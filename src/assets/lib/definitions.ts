@@ -37,6 +37,10 @@ export type translationType = {
 		boarderlineUrl: string;
 		geocodeAlt: string;
 		geocodeText: string;
+		geocodeUrl: string;
+		fournilExpressAlt: string;
+		fournilExpressText: string;
+		fournilExpressUrl: string;
 	};
 	contact: {
 		contactTitle: string;

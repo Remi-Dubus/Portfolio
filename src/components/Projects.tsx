@@ -7,6 +7,7 @@ import croustiEatPicture from "../assets/images/crouti-eat-picture.png";
 import buyAPlanetPicture from "../assets/images/buy-a-planet-picture.png";
 import boarderLinePicture from "../assets/images/borderline-picture.png";
 import eshopPicture from "../assets/images/eshop-picture.png";
+import fournilExpressPicture from "../assets/images/fournil-express-picture.png";
 
 import geocodeVideo from "../assets/video/geocode-video.mp4";
 
@@ -67,9 +68,16 @@ export default function Projects() {
 		{
 			alt: translations.project.geocodeAlt,
 			text: translations.project.geocodeText,
-			url: "#",
+			url: translations.project.geocodeUrl,
 			picture: null,
 			video: geocodeVideo,
+		},
+		{
+			alt: translations.project.fournilExpressAlt,
+			text: translations.project.fournilExpressText,
+			url: translations.project.fournilExpressUrl,
+			picture: fournilExpressPicture,
+			video: null,
 		},
 	];
 
