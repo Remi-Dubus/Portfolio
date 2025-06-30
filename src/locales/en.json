@@ -69,5 +69,9 @@
 	"footer": {
 		"copyrigthText": "Background and flags designed by ",
 		"copyrigthLink": "rawpixel.com / Freepik."
+	},
+	"newPortfolioLink": {
+		"portfolioText": "Link to the ",
+		"portfolioLink": "new version of my portfolio."
 	}
 }
