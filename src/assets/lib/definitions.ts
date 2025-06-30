@@ -56,6 +56,10 @@ export type translationType = {
 		copyrigthText: string;
 		copyrigthLink: string;
 	};
+	newPortfolioLink: {
+		portfolioText: string;
+		portfolioLink: string;
+	};
 };
 
 export type languageType = {

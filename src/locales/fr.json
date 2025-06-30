@@ -69,5 +69,9 @@
 	"footer": {
 		"copyrigthText": "Fond et drapeaux conçu par ",
 		"copyrigthLink": "rawpixel.com / Freepik"
+	},
+	"newPortfolioLink": {
+		"portfolioText": "Lien vers la ",
+		"portfolioLink": "nouvelle version de mon portfolio."
 	}
 }
