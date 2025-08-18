@@ -29,4 +29,4 @@ Features:
  - Presentation of my first projects
  - Deployed online
 
-[View the version 2 of my portfolio](https://portfolio-remi-dubus.vercel.app/)
+[View the first version of my portfolio](https://portfolio-remi-dubus.vercel.app/)
